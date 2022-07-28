@@ -1,11 +1,12 @@
 import React from 'react'
-import CryptoTable from './component/Cryptotable';
 import './styles/App.css';
+import UsersList from './component/List';
 
 const App = () => {
   return (
     <div className="App">
-      <CryptoTable/>
+      <h1>FactWise Celebrities List</h1>
+     <UsersList/>
     </div>
   );
 }

@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -7,6 +11,11 @@
   pointer-events: none;
 }
 
+
+.name-container {
+  padding: 0 2rem;
+  align-self: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +35,61 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-inner-container {
+  display: flex;
+}
+
+.inner-container-chlid {
+  flex: 1;
+  text-align: left;
+}
+.celebrites-inner-container{
+  width: 30%;
+}
+
+.discription-container {
+  margin: 1rem 0;
+}
+
+.discription-container p {
+  text-align: justify;
+}
+
+.discription-container h4 {
+  color: rgb(213, 210, 210); 
+  font-weight: 400;
+  margin: 0;
+}
+
+.discription-container p {
+  color: #1d1b1b; 
+}
+.card-header {
+  color: rgb(213, 210, 210); 
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+#celebritieslist {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 @keyframes App-logo-spin {
